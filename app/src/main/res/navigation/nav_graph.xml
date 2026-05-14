@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_sensors">
+
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="com.example.hw2.SensorsFragment"
+        android:label="Sensors"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/nav_draw"
+        android:name="com.example.hw2.DrawFragment"
+        android:label="Draw"
+        tools:layout="@layout/fragment_draw" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="com.example.hw2.CameraFragment"
+        android:label="Camera"
+        tools:layout="@layout/fragment_camera" />
+</navigation>
